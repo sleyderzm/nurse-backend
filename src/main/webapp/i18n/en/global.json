@@ -35,6 +35,10 @@
             "language": "Language"
         },
         "form": {
+            "firstname": "First Name",
+            "firstname.placeholder": "Your first name",
+            "lastname": "Last Name",
+            "lastname.placeholder": "Your last name",
             "username": "Username",
             "username.placeholder": "Your username",
             "currentpassword": "Current password",
@@ -131,7 +135,9 @@
         "userexists": "Login name already used!",
         "emailexists": "Email is already in use!",
         "idexists": "A new {{ entityName }} cannot already have an ID",
-        "idnull": "Invalid ID"
+        "neoapierror": "Error when try to create wallet in neo Api",
+        "idnull": "Invalid ID",
+        "unauthorize": "You have not permission"
     },
     "footer": "This is your footer"
 }

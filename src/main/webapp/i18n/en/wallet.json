@@ -17,6 +17,7 @@
                 "title": "Wallet"
             },
             "address": "Address",
+            "name": "Name",
             "privateKey": "Private Key",
             "publicKey": "Public Key",
             "publicKeyHash": "Public Key Hash",

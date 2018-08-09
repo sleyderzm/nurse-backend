@@ -16,7 +16,8 @@ export class WalletUpdateComponent implements OnInit {
     private _wallet: IWallet;
     isSaving: boolean;
 
-    users: IUser[];
+    // load owners
+    // users: IUser[];
 
     constructor(
         private jhiAlertService: JhiAlertService,
@@ -30,12 +31,14 @@ export class WalletUpdateComponent implements OnInit {
         this.activatedRoute.data.subscribe(({ wallet }) => {
             this.wallet = wallet;
         });
-        this.userService.query().subscribe(
+
+        // load owners
+        /*this.userService.query().subscribe(
             (res: HttpResponse<IUser[]>) => {
                 this.users = res.body;
             },
             (res: HttpErrorResponse) => this.onError(res.message)
-        );
+        );*/
     }
 
     previousState() {

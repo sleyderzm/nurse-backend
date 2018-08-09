@@ -2,6 +2,7 @@ import { IUser } from 'app/core/user/user.model';
 
 export interface IWallet {
     id?: number;
+    name?: string;
     address?: string;
     privateKey?: string;
     publicKey?: string;
@@ -17,6 +18,7 @@ export interface IWallet {
 export class Wallet implements IWallet {
     constructor(
         public id?: number,
+        public name?: string,
         public address?: string,
         public privateKey?: string,
         public publicKey?: string,
